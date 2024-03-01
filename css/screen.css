@@ -19,7 +19,6 @@ h2{
     font-size: 2.441em;
     line-height: 1em;
     color: #5C5A6D;
-    margin-bottom: 10%;
   }
 body{
     background-color: #2D3945;
@@ -104,6 +103,9 @@ input{
     h1{
         width: 50%;
     }
+    h2{
+        margin-bottom: 10%;
+    }
     
 }
 /* Tablet */
@@ -126,5 +128,9 @@ input{
     }
     h1{
         width: 100%;
+        font-size: 5vw;
+    }
+    h2{
+        margin-bottom: 5%;
     }
 }
