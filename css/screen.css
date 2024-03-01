@@ -45,13 +45,14 @@ input{
     width: 96%;
     padding: 12px 20px;
     margin: 8px 2%;
-    border: 3px solid #c7c7c7;
+    border: 0px;
     border-radius: 15px;
+    margin-bottom: 4%;
 }
 
 #submit input{
     width: 60%;
-    margin: auto 20%;
+    margin: 5% 20%;
     cursor: pointer;
     background-color: #666092;
     color: white;
@@ -76,7 +77,6 @@ input{
         padding: 12px 20px;
         margin: 8px 0%;
         margin-bottom: 8%;
-        border: 0px;
         border-radius: 30px;
 
     }
