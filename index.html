@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>Project 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+  <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css">
+  <link rel="stylesheet" media="screen" href="css/screen.css">
+</head>
+<body>
+  <form method="get" action ="#null" autocomplete ="on">
+    <div id="container" class="fontsize">
+      <label for="email">Email:</label>
+      <input type="text" name="email_data" id="email" placeholder="example@email.com" required autocomplete="on">
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="123-456-7890" autocomplete="on">
+
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday" required autocomplete="on">
+
+      <div id="submit">
+          <input type="submit" value="Submit">
+      </div>
+    </div>
+  </form>
+</body>
+</html>
