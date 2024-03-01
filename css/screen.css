@@ -57,7 +57,7 @@ input{
 }
 
 /*Desktop*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 760px){
     label{
         display: block;
         text-align: left;
@@ -81,7 +81,7 @@ input{
         width: 50%;
         margin: 3% 0%;
         border-radius: 50px;
-        padding: 20px 0px;
+        padding: 5% 0px;
         font-size: 30px;
     }
     #content{
@@ -103,5 +103,28 @@ input{
     }
     h1{
         width: 50%;
+    }
+    
+}
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 1023px){
+    #submit input{
+        width: 75%;
+        margin: 3% 0%;
+        border-radius: 50px;
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+    #mainChunk{
+        width: 100%;
+        padding: 5vh 0px;
+        border-radius: 40px;
+    }
+    #content{
+        flex-direction: column;
+        margin: 1vh 2%;
+    }
+    h1{
+        width: 100%;
     }
 }
