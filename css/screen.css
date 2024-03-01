@@ -1,0 +1,95 @@
+/* FONTS */
+html {
+    font-family:"Roboto Slab", Helvetica, serif;
+    font-size: 1.375em; /* 22px */
+    line-height: 1.182em; /* 26px / ~ 120% */
+    padding: 1.182em; /* 26px / ~ 120% */
+    text-rendering: optimizeLegibility;
+  }
+  h1{
+    font-family: "DM Serif Display","Roboto Slab", serif;
+    text-align: center;
+    font-size: 2.441em;
+    line-height: 2em;
+    color: #ffffff;
+  }
+  h2{
+    font-family: "Roboto Slab", Arial, serif;
+    text-align: center;
+    font-size: 2.441em;
+    line-height: 1em;
+    color: #5C5A6D;
+    margin-bottom: 10%;
+  }
+
+body{
+    background-color: #2D3945;
+}
+#submit input:hover{
+    background-color: hsl(0, 0%, 67%);
+}
+/*Mobile*/
+label{
+    display: block;
+
+    width: 96%;
+    margin: 0 2%;
+}
+input{
+    box-sizing: border-box;
+    width: 96%;
+    padding: 12px 20px;
+    margin: 8px 2%;
+    border: 3px solid #c7c7c7;
+    border-radius: 15px;
+}
+
+#submit input{
+    width: 60%;
+    margin: auto 20%;
+    cursor: pointer;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px){
+    label{
+        display: block;
+        text-align: left;
+        font-size: 1.2em;
+        color: #2D408E;
+        
+    }
+    #container{
+        margin: 3% 20%;
+    }
+    input{
+        padding: 12px 20px;
+        margin: 8px 0%;
+        margin-bottom: 8%;
+        border: 0px;
+        border-radius: 30px;
+
+    }
+    #submit input{
+        width: 30%;
+        margin: 3% 0%;
+        border-radius: 12px;
+    }
+    #content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #8782A8;
+        border-radius: 40px;
+        margin: 3vh 5%;
+
+    }
+    #mainChunk{
+        width: 50%;
+        background-color: #EAE9E5;
+        padding: 5vh 0px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        
+    }
+}
