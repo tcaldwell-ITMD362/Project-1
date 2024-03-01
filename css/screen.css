@@ -10,8 +10,8 @@ h1{
     font-family: "DM Serif Display","Roboto Slab", serif;
     text-align: center;
     font-size: 2.441em;
-    line-height: 2em;
-    color: #ffffff;
+    line-height: 1em;
+    color: #8782A8;
   }
 h2{
     font-family: "Roboto Slab", Arial, serif;
@@ -19,6 +19,7 @@ h2{
     font-size: 2.441em;
     line-height: 1em;
     color: #5C5A6D;
+    visibility: hidden;
   }
 
 #submit{
@@ -106,9 +107,12 @@ input{
     }
     h1{
         width: 50%;
+        line-height: 2em;
+        color: #ffffff;
     }
     h2{
         margin-bottom: 10%;
+        visibility: visible;
     }
     
 }
@@ -133,6 +137,7 @@ input{
     h1{
         width: 100%;
         font-size: 5vw;
+            line-height: 2em;
     }
     h2{
         margin-bottom: 5%;
