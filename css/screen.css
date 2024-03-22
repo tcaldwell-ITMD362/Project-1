@@ -1,5 +1,5 @@
 /*if JS not found */
-.hasjs h1{
+.nojs h1{
     color: #c53833;
 }
 /* FONTS */
